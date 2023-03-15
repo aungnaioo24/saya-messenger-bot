@@ -1,0 +1,145 @@
+.bg-gradient-primary {
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #1A1A1A 10%, #000000 100%);
+    background-size: cover;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+div.bot-template-control-card {
+    overflow: hidden;
+}
+
+div.bot-template-control-card div.form-check label.form-check-label {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.bot-display-noti-bar {
+    background-color: #000000;
+    color: #fff;
+    height: 24px;
+}
+
+.mobile-time {
+    font-size: 0.65rem;
+    line-height: 24px;
+}
+
+.bot-display-header {
+    height: 60px;
+    box-shadow: 0px 1px #e6e6e6;
+}
+
+.bot-display-header-logo {
+    height: 50px;
+    float: left;
+}
+
+.bot-display-header-title {
+    color: #000;
+    float: left;
+}
+
+.save-btn {
+    font-size: 30px;
+    line-height: 50px;
+    float: right;
+}
+
+.bot-message-body {
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+}
+
+.bot-message-body:hover {
+    overflow: auto;
+}
+
+.bot-message-body::-webkit-scrollbar {
+    width: 6px;
+}
+
+.bot-message-body::-webkit-scrollbar-track {
+    border-radius: 3px;
+}
+
+.bot-message-body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(164, 164, 164, 0.2);
+    box-shadow: inset 0 0 3px rgba(219, 219, 219, 0.5);
+}
+
+.message-input-box {
+    color: gray;
+    border-radius: 50px;
+    resize: none;
+    background-color: #e7e7e7;
+}
+
+div.message-div {
+    max-width: 250px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+}
+
+div.photo-message-row div.message-div {
+    max-width: 250px;
+}
+
+div.photo-message-row div.bot-msg-div, div.animation-message-row div.bot-msg-div {
+    padding: 0;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    border-end-start-radius: 0px;
+}
+
+img.photo-message {
+    min-width: 250px;
+    max-width: 250px;
+    margin: 0;
+}
+
+div.bot-user-msg-div {
+    float: right;
+    background-color: rgb(0 132 255);
+    margin-left: 15px;
+    margin-right: 10px;
+    border-end-end-radius: 0px;
+}
+
+div.bot-msg-div {
+    float: left;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 15px;
+    border-end-start-radius: 0px;
+}
+
+div.bot-msg-div p {
+    font-size: 14px;
+    color: #000;
+}
+
+div.bot-user-msg-div p {
+    font-size: 16px;
+    color: #fff;
+}
+
+button.get-started {
+    box-shadow: 1px 1px 5px #b1b1b1;
+    text-align: center;
+    border-radius: 50px;
+    padding: 3px 10px;
+}
